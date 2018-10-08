@@ -1,0 +1,56 @@
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: center url('./images/event.jpg') no-repeat;
+  background-size: cover;
+}
+
+.container {
+  font-family: serif;
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  position: fixed;
+  left: 0;
+  top: 20px;
+  transform: rotateZ(-90deg);
+}
+
+.heading {
+  display: inline-block;
+}
+
+.text {
+  color: white;
+  background: black;
+  padding: 0 6px;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: 1;
+  min-width: 33.33333%;
+  height: 360px;
+  object-fit: contain;
+  margin: 7px 0;
+}

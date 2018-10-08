@@ -1,0 +1,28 @@
+{
+  "name": "agile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaseleznev/agile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaseleznev/agile/issues"
+  },
+  "homepage": "https://github.com/nikitaseleznev/agile#readme",
+  "dependencies": {
+    "prismic-dom": "^2.1.0",
+    "prismic-javascript": "^1.5.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.4",
+    "parcel-bundler": "^1.9.7"
+  }
+}
